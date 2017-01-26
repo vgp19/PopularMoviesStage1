@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="218dp"
+        android:id="@+id/movie_poster"
+        android:layout_height="280dp"
+        android:adjustViewBounds="true"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:background="@android:color/darker_gray"
+        android:scaleType="centerCrop"
+         />
+</GridLayout>
